@@ -1,7 +1,13 @@
-// Prints the first n Fibonacci numbers
-const printFibonacci = (n) => {
- 
+/*
+Write a function named  capitalizeWords that takes a string (sentence) as input and returns 
+a new string where the first letter of each word is capitalized.
+*/
+const capitalizeWords = (sentence) =>{
+ //write your solution here
 }
 
-printFibonacci(5);  // should print 0, 1, 1, 2, 3
-printFibonacci(10); // should print 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+capitalizeWords("hello world from javascript");
+// → "Hello World From Javascript"
+
+capitalizeWords("javaScript");
+// → "JavaScript"
