@@ -1,4 +1,4 @@
-# **Code Challenge: Print Fibonacci**
+# **Code Challenge:** `capitalizeWords`
 
 **Instructions**
 
@@ -12,17 +12,14 @@
 
 ## index.js
 
-**Problem Description**
+Problem Description
 
-Write a function that prints the first `n` Fibonacci numbers using **only variables and a loop** — no arrays needed. 
-
-The Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones, usually starting with 0 and 1. The sequence begins:
-
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
-
-**Example**
+Write a function named  `capitalizeWords` that takes a string (`sentence`) as input and returns a new string where **the first letter of each word is capitalized** and all other letters are lowercase.
 
 ```jsx
-printFibonacci(5);  // should print 0, 1, 1, 2, 3
-printFibonacci(10); // should print 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+capitalizeWords("hello world from javascript");
+// → "Hello World From Javascript"
+
+capitalizeWords("javascript");
+// → "Javascript"
 ```
